@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "a45e",
+      "firstName": "Guna1",
+      "lastName": "Bokka1",
+      "phone": "8501077247",
+      "email": "gunanaga944@gmail.com"
+    },
+    {
+      "id": "a45e",
+      "firstName": "Guna2",
+      "lastName": "Bokka2",
+      "phone": "8501077247",
+      "email": "gunanaga944@gmail.com"
+    }
+  ]
+}
