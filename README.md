@@ -13,8 +13,8 @@ The project is  designed with future extensibility in mind, allowing new form fi
 - Clean and responsive UI using plain CSS
 
 ## Tech Stack
-- React (Create React App)
+- React 
 - JavaScript (ES6+)
 - Axios (API communication)
 - JSON-server (Mock backend)
-- Plain CSS (No UI libraries)
+- Plain CSS
