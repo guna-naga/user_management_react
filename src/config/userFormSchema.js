@@ -23,13 +23,6 @@ const userFormSchema = [
     pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
     errorMessage: "Enter valid email address",
   },
-  {
-    name: "DOB",
-    label: "Date of Birth",
-    required: false,
-    pattern: /^\d{2}-\d{2}-\d{4}$/,
-    errorMessage: "Enter valid date of birth (DD-MM-YYYY)",
-  },
 ];
 
 export default userFormSchema;

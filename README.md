@@ -7,7 +7,7 @@ The project is  designed with future extensibility in mind, allowing new form fi
 - View list of users
 - Update existing user details
 - Delete a user
-- Input validation for all fields
+- Input validation for all fields   
 - Single reusable form for both Create and Update
 - Schema-driven form design for easy extensibility
 - Clean and responsive UI using plain CSS
