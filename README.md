@@ -18,3 +18,48 @@ The project is  designed with future extensibility in mind, allowing new form fi
 - Axios (API communication)
 - JSON-server (Mock backend)
 - Plain CSS
+
+## Adding Additional Fields
+This project is built using a reusable and scalable approach, so adding new fields is straightforward. Follow the steps below carefully.
+- Add the new fields to userFormSchema.
+const userFormSchema = [
+  {
+    name: "firstName",
+    label: "First Name",
+    required: true,
+  },
+  {
+    name: "lastName",
+    label: "Last Name",
+    required: true,
+  },
+  {
+    name: "phone",
+    label: "Phone Number",
+    required: true,
+    pattern: /^[0-9]{10}$/,
+    errorMessage: "Enter valid 10 digit phone number",
+  },
+  
+  // NEW FIELD
+  {
+    name: "email",
+    label: "Email Address",
+    required: true,
+    pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+    errorMessage: "Enter valid email address",
+  },
+];
+
+
+- Also update the initial state:
+const initialState = {
+  firstName: "",
+  lastName: "",
+  phone: "",
+  email: "",
+  //NEW FIELD
+  email: "",
+};
+
+- This works automatically for newly added fields.
